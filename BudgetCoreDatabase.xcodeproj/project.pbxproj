@@ -10,6 +10,37 @@
 		F881744B2578956C0000C2D6 /* BudgetCoreDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88174412578956B0000C2D6 /* BudgetCoreDatabase.framework */; };
 		F88174502578956C0000C2D6 /* BudgetCoreDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881744F2578956C0000C2D6 /* BudgetCoreDatabaseTests.swift */; };
 		F88174522578956C0000C2D6 /* BudgetCoreDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F88174442578956B0000C2D6 /* BudgetCoreDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F88174F2257897710000C2D6 /* TransactionDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174C1257897710000C2D6 /* TransactionDataBase.swift */; };
+		F88174F5257897710000C2D6 /* RecordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174C5257897710000C2D6 /* RecordProtocol.swift */; };
+		F88174F6257897710000C2D6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174C6257897710000C2D6 /* Transaction.swift */; };
+		F88174F8257897710000C2D6 /* RecordDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174C9257897710000C2D6 /* RecordDecoder.swift */; };
+		F88174F9257897710000C2D6 /* RecordEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174CA257897710000C2D6 /* RecordEncoder.swift */; };
+		F88174FA257897710000C2D6 /* RecordDataSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174CB257897710000C2D6 /* RecordDataSerialization.swift */; };
+		F88174FB257897710000C2D6 /* RecordAggregatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174CD257897710000C2D6 /* RecordAggregatorProtocol.swift */; };
+		F88174FC257897710000C2D6 /* AmountsBreakdownAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174CE257897710000C2D6 /* AmountsBreakdownAggregator.swift */; };
+		F88174FD257897710000C2D6 /* AmountsAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174CF257897710000C2D6 /* AmountsAggregator.swift */; };
+		F8817500257897710000C2D6 /* AbstractTransactionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D3257897710000C2D6 /* AbstractTransactionFilter.swift */; };
+		F8817501257897710000C2D6 /* ExpenditureFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D4257897710000C2D6 /* ExpenditureFilter.swift */; };
+		F8817502257897710000C2D6 /* RecordFilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D5257897710000C2D6 /* RecordFilterProtocol.swift */; };
+		F8817503257897710000C2D6 /* PeriodFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D6257897710000C2D6 /* PeriodFilter.swift */; };
+		F8817504257897710000C2D6 /* IncomeFIlter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D7257897710000C2D6 /* IncomeFIlter.swift */; };
+		F8817505257897710000C2D6 /* CategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D8257897710000C2D6 /* CategoryFilter.swift */; };
+		F8817506257897710000C2D6 /* MultiFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174D9257897710000C2D6 /* MultiFilter.swift */; };
+		F8817507257897710000C2D6 /* AggregatedTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174DB257897710000C2D6 /* AggregatedTransaction.swift */; };
+		F8817508257897710000C2D6 /* AggregatedTransactionCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174DC257897710000C2D6 /* AggregatedTransactionCollection.swift */; };
+		F8817509257897710000C2D6 /* BreakdownStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174DD257897710000C2D6 /* BreakdownStorage.swift */; };
+		F881750A257897710000C2D6 /* BubbleSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174DF257897710000C2D6 /* BubbleSorter.swift */; };
+		F881750B257897710000C2D6 /* RecordSortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E0257897710000C2D6 /* RecordSortable.swift */; };
+		F881750C257897710000C2D6 /* SorterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E1257897710000C2D6 /* SorterProtocol.swift */; };
+		F881750D257897710000C2D6 /* TableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E3257897710000C2D6 /* TableProtocol.swift */; };
+		F881750E257897710000C2D6 /* TransactionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E4257897710000C2D6 /* TransactionTable.swift */; };
+		F8817510257897710000C2D6 /* TransactionsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E6257897710000C2D6 /* TransactionsDetail.swift */; };
+		F8817511257897710000C2D6 /* TransactionCategoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174E8257897710000C2D6 /* TransactionCategoryProvider.swift */; };
+		F8817513257897710000C2D6 /* KeyIndexableKeyValuePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174EA257897710000C2D6 /* KeyIndexableKeyValuePairs.swift */; };
+		F8817514257897710000C2D6 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174EB257897710000C2D6 /* TransactionType.swift */; };
+		F8817515257897710000C2D6 /* TransactionCategoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174EC257897710000C2D6 /* TransactionCategoryProtocol.swift */; };
+		F8817518257897710000C2D6 /* TransactionCategoryValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88174EF257897710000C2D6 /* TransactionCategoryValue.swift */; };
+		F8EA880C257BB86A0049C921 /* TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA880B257BB86A0049C921 /* TableDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +60,37 @@
 		F881744A2578956C0000C2D6 /* BudgetCoreDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetCoreDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F881744F2578956C0000C2D6 /* BudgetCoreDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCoreDatabaseTests.swift; sourceTree = "<group>"; };
 		F88174512578956C0000C2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88174C1257897710000C2D6 /* TransactionDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataBase.swift; sourceTree = "<group>"; };
+		F88174C5257897710000C2D6 /* RecordProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordProtocol.swift; sourceTree = "<group>"; };
+		F88174C6257897710000C2D6 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F88174C9257897710000C2D6 /* RecordDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDecoder.swift; sourceTree = "<group>"; };
+		F88174CA257897710000C2D6 /* RecordEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEncoder.swift; sourceTree = "<group>"; };
+		F88174CB257897710000C2D6 /* RecordDataSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDataSerialization.swift; sourceTree = "<group>"; };
+		F88174CD257897710000C2D6 /* RecordAggregatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAggregatorProtocol.swift; sourceTree = "<group>"; };
+		F88174CE257897710000C2D6 /* AmountsBreakdownAggregator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountsBreakdownAggregator.swift; sourceTree = "<group>"; };
+		F88174CF257897710000C2D6 /* AmountsAggregator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountsAggregator.swift; sourceTree = "<group>"; };
+		F88174D3257897710000C2D6 /* AbstractTransactionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTransactionFilter.swift; sourceTree = "<group>"; };
+		F88174D4257897710000C2D6 /* ExpenditureFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenditureFilter.swift; sourceTree = "<group>"; };
+		F88174D5257897710000C2D6 /* RecordFilterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordFilterProtocol.swift; sourceTree = "<group>"; };
+		F88174D6257897710000C2D6 /* PeriodFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodFilter.swift; sourceTree = "<group>"; };
+		F88174D7257897710000C2D6 /* IncomeFIlter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeFIlter.swift; sourceTree = "<group>"; };
+		F88174D8257897710000C2D6 /* CategoryFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFilter.swift; sourceTree = "<group>"; };
+		F88174D9257897710000C2D6 /* MultiFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiFilter.swift; sourceTree = "<group>"; };
+		F88174DB257897710000C2D6 /* AggregatedTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregatedTransaction.swift; sourceTree = "<group>"; };
+		F88174DC257897710000C2D6 /* AggregatedTransactionCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregatedTransactionCollection.swift; sourceTree = "<group>"; };
+		F88174DD257897710000C2D6 /* BreakdownStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakdownStorage.swift; sourceTree = "<group>"; };
+		F88174DF257897710000C2D6 /* BubbleSorter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSorter.swift; sourceTree = "<group>"; };
+		F88174E0257897710000C2D6 /* RecordSortable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSortable.swift; sourceTree = "<group>"; };
+		F88174E1257897710000C2D6 /* SorterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SorterProtocol.swift; sourceTree = "<group>"; };
+		F88174E3257897710000C2D6 /* TableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableProtocol.swift; sourceTree = "<group>"; };
+		F88174E4257897710000C2D6 /* TransactionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTable.swift; sourceTree = "<group>"; };
+		F88174E6257897710000C2D6 /* TransactionsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsDetail.swift; sourceTree = "<group>"; };
+		F88174E8257897710000C2D6 /* TransactionCategoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCategoryProvider.swift; sourceTree = "<group>"; };
+		F88174EA257897710000C2D6 /* KeyIndexableKeyValuePairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyIndexableKeyValuePairs.swift; sourceTree = "<group>"; };
+		F88174EB257897710000C2D6 /* TransactionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		F88174EC257897710000C2D6 /* TransactionCategoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCategoryProtocol.swift; sourceTree = "<group>"; };
+		F88174EF257897710000C2D6 /* TransactionCategoryValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCategoryValue.swift; sourceTree = "<group>"; };
+		F8EA880B257BB86A0049C921 /* TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +135,7 @@
 			children = (
 				F88174442578956B0000C2D6 /* BudgetCoreDatabase.h */,
 				F88174452578956B0000C2D6 /* Info.plist */,
+				F88174C0257897710000C2D6 /* CoreModel */,
 			);
 			path = BudgetCoreDatabase;
 			sourceTree = "<group>";
@@ -84,6 +147,108 @@
 				F88174512578956C0000C2D6 /* Info.plist */,
 			);
 			path = BudgetCoreDatabaseTests;
+			sourceTree = "<group>";
+		};
+		F88174C0257897710000C2D6 /* CoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				F88174C4257897710000C2D6 /* Record */,
+				F88174C8257897710000C2D6 /* Serialization */,
+				F88174CC257897710000C2D6 /* RecordAggregator */,
+				F88174D2257897710000C2D6 /* RecordFIlter */,
+				F88174DA257897710000C2D6 /* AggregatedTransaction */,
+				F88174DE257897710000C2D6 /* RecordSorter */,
+				F88174E7257897710000C2D6 /* TransactionCategory */,
+				F88174E2257897710000C2D6 /* Table */,
+				F88174E6257897710000C2D6 /* TransactionsDetail.swift */,
+				F88174C1257897710000C2D6 /* TransactionDataBase.swift */,
+			);
+			path = CoreModel;
+			sourceTree = "<group>";
+		};
+		F88174C4257897710000C2D6 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				F88174C5257897710000C2D6 /* RecordProtocol.swift */,
+				F88174C6257897710000C2D6 /* Transaction.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		F88174C8257897710000C2D6 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				F88174C9257897710000C2D6 /* RecordDecoder.swift */,
+				F88174CA257897710000C2D6 /* RecordEncoder.swift */,
+				F88174CB257897710000C2D6 /* RecordDataSerialization.swift */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		F88174CC257897710000C2D6 /* RecordAggregator */ = {
+			isa = PBXGroup;
+			children = (
+				F88174CD257897710000C2D6 /* RecordAggregatorProtocol.swift */,
+				F88174CE257897710000C2D6 /* AmountsBreakdownAggregator.swift */,
+				F88174CF257897710000C2D6 /* AmountsAggregator.swift */,
+			);
+			path = RecordAggregator;
+			sourceTree = "<group>";
+		};
+		F88174D2257897710000C2D6 /* RecordFIlter */ = {
+			isa = PBXGroup;
+			children = (
+				F88174D3257897710000C2D6 /* AbstractTransactionFilter.swift */,
+				F88174D4257897710000C2D6 /* ExpenditureFilter.swift */,
+				F88174D5257897710000C2D6 /* RecordFilterProtocol.swift */,
+				F88174D6257897710000C2D6 /* PeriodFilter.swift */,
+				F88174D7257897710000C2D6 /* IncomeFIlter.swift */,
+				F88174D8257897710000C2D6 /* CategoryFilter.swift */,
+				F88174D9257897710000C2D6 /* MultiFilter.swift */,
+			);
+			path = RecordFIlter;
+			sourceTree = "<group>";
+		};
+		F88174DA257897710000C2D6 /* AggregatedTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				F88174DB257897710000C2D6 /* AggregatedTransaction.swift */,
+				F88174DC257897710000C2D6 /* AggregatedTransactionCollection.swift */,
+				F88174DD257897710000C2D6 /* BreakdownStorage.swift */,
+			);
+			path = AggregatedTransaction;
+			sourceTree = "<group>";
+		};
+		F88174DE257897710000C2D6 /* RecordSorter */ = {
+			isa = PBXGroup;
+			children = (
+				F88174DF257897710000C2D6 /* BubbleSorter.swift */,
+				F88174E0257897710000C2D6 /* RecordSortable.swift */,
+				F88174E1257897710000C2D6 /* SorterProtocol.swift */,
+			);
+			path = RecordSorter;
+			sourceTree = "<group>";
+		};
+		F88174E2257897710000C2D6 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F88174E3257897710000C2D6 /* TableProtocol.swift */,
+				F88174E4257897710000C2D6 /* TransactionTable.swift */,
+				F8EA880B257BB86A0049C921 /* TableDelegate.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F88174E7257897710000C2D6 /* TransactionCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F88174E8257897710000C2D6 /* TransactionCategoryProvider.swift */,
+				F88174EA257897710000C2D6 /* KeyIndexableKeyValuePairs.swift */,
+				F88174EB257897710000C2D6 /* TransactionType.swift */,
+				F88174EC257897710000C2D6 /* TransactionCategoryProtocol.swift */,
+				F88174EF257897710000C2D6 /* TransactionCategoryValue.swift */,
+			);
+			path = TransactionCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +359,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88174FD257897710000C2D6 /* AmountsAggregator.swift in Sources */,
+				F8817511257897710000C2D6 /* TransactionCategoryProvider.swift in Sources */,
+				F881750E257897710000C2D6 /* TransactionTable.swift in Sources */,
+				F88174F5257897710000C2D6 /* RecordProtocol.swift in Sources */,
+				F8817509257897710000C2D6 /* BreakdownStorage.swift in Sources */,
+				F8817514257897710000C2D6 /* TransactionType.swift in Sources */,
+				F8817506257897710000C2D6 /* MultiFilter.swift in Sources */,
+				F8817500257897710000C2D6 /* AbstractTransactionFilter.swift in Sources */,
+				F8817503257897710000C2D6 /* PeriodFilter.swift in Sources */,
+				F8817510257897710000C2D6 /* TransactionsDetail.swift in Sources */,
+				F8817501257897710000C2D6 /* ExpenditureFilter.swift in Sources */,
+				F8817518257897710000C2D6 /* TransactionCategoryValue.swift in Sources */,
+				F8817504257897710000C2D6 /* IncomeFIlter.swift in Sources */,
+				F8817515257897710000C2D6 /* TransactionCategoryProtocol.swift in Sources */,
+				F881750A257897710000C2D6 /* BubbleSorter.swift in Sources */,
+				F88174FC257897710000C2D6 /* AmountsBreakdownAggregator.swift in Sources */,
+				F881750D257897710000C2D6 /* TableProtocol.swift in Sources */,
+				F881750B257897710000C2D6 /* RecordSortable.swift in Sources */,
+				F8EA880C257BB86A0049C921 /* TableDelegate.swift in Sources */,
+				F88174FB257897710000C2D6 /* RecordAggregatorProtocol.swift in Sources */,
+				F8817505257897710000C2D6 /* CategoryFilter.swift in Sources */,
+				F8817508257897710000C2D6 /* AggregatedTransactionCollection.swift in Sources */,
+				F8817507257897710000C2D6 /* AggregatedTransaction.swift in Sources */,
+				F8817502257897710000C2D6 /* RecordFilterProtocol.swift in Sources */,
+				F88174F2257897710000C2D6 /* TransactionDataBase.swift in Sources */,
+				F8817513257897710000C2D6 /* KeyIndexableKeyValuePairs.swift in Sources */,
+				F88174F9257897710000C2D6 /* RecordEncoder.swift in Sources */,
+				F88174FA257897710000C2D6 /* RecordDataSerialization.swift in Sources */,
+				F88174F6257897710000C2D6 /* Transaction.swift in Sources */,
+				F881750C257897710000C2D6 /* SorterProtocol.swift in Sources */,
+				F88174F8257897710000C2D6 /* RecordDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,10 +536,11 @@
 		F88174562578956C0000C2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GM36ZRA62C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -364,10 +561,11 @@
 		F88174572578956C0000C2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GM36ZRA62C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -388,9 +586,10 @@
 		F88174592578956C0000C2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GM36ZRA62C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BudgetCoreDatabaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,9 +605,10 @@
 		F881745A2578956C0000C2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GM36ZRA62C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BudgetCoreDatabaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
